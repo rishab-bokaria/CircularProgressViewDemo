@@ -14,6 +14,7 @@
 		D93FBD521A931EAF00770BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93FBD511A931EAF00770BE0 /* Images.xcassets */; };
 		D93FBD551A931EAF00770BE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93FBD531A931EAF00770BE0 /* LaunchScreen.xib */; };
 		D93FBD611A931EAF00770BE0 /* CircularProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93FBD601A931EAF00770BE0 /* CircularProgressViewDemoTests.m */; };
+		D93FBD6D1A931EF100770BE0 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D93FBD6C1A931EF100770BE0 /* CircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D93FBD5A1A931EAF00770BE0 /* CircularProgressViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93FBD5F1A931EAF00770BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93FBD601A931EAF00770BE0 /* CircularProgressViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressViewDemoTests.m; sourceTree = "<group>"; };
+		D93FBD6B1A931EF100770BE0 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularProgressView.h; path = CircularProgressViewDemo/CircularProgressView.h; sourceTree = "<group>"; };
+		D93FBD6C1A931EF100770BE0 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularProgressView.m; path = CircularProgressViewDemo/CircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		D93FBD381A931EAF00770BE0 = {
 			isa = PBXGroup;
 			children = (
+				D93FBD6A1A931EBF00770BE0 /* CircularProgressView */,
 				D93FBD431A931EAF00770BE0 /* CircularProgressViewDemo */,
 				D93FBD5D1A931EAF00770BE0 /* CircularProgressViewDemoTests */,
 				D93FBD421A931EAF00770BE0 /* Products */,
@@ -117,6 +121,15 @@
 				D93FBD5F1A931EAF00770BE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D93FBD6A1A931EBF00770BE0 /* CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D93FBD6B1A931EF100770BE0 /* CircularProgressView.h */,
+				D93FBD6C1A931EF100770BE0 /* CircularProgressView.m */,
+			);
+			name = CircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				D93FBD4D1A931EAF00770BE0 /* ViewController.m in Sources */,
 				D93FBD4A1A931EAF00770BE0 /* AppDelegate.m in Sources */,
+				D93FBD6D1A931EF100770BE0 /* CircularProgressView.m in Sources */,
 				D93FBD471A931EAF00770BE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
